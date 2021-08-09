@@ -11,10 +11,19 @@
     color: goldenrod;
 }
 
-.dialog{}
+.dialog a{
+    text-decoration: none;
+    color: black;
+}
+
+.dialog a.active{
+    color: goldenrod;
+}
+
 
 .messages{
     padding: 15px;
+    background-color: lavender;
 }
 
 .message{}
