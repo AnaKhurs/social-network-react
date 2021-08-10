@@ -10,6 +10,13 @@ import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
 import {BrowserRouter, Route} from "react-router-dom";
 
+
+let postData = [
+    {id: 1, message: 'Hi, how are you?', likecounter: 15},
+    {id: 2, message: 'It is my new post!', likecounter: 18}
+]
+
+
 const App = () => {
     return (
         <BrowserRouter>
@@ -18,7 +25,7 @@ const App = () => {
                 <Navbar/>
                 <div className='app-wrapper-content'>
                     <Route path='/dialogs' render={() => <Dialogs/>}/>
-                    <Route path='/profile' render={() => <Profile/>}/>
+                    <Route path='/profile' render={() => <Profile postData={postData}/>}/>
                     <Route path='/music' component={Music}/>
                     <Route path='/news' component={News}/>
                     <Route path='/settings' component={Settings}/>
