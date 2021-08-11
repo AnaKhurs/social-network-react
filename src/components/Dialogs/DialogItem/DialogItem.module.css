@@ -1,0 +1,25 @@
+.avaName {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+.dialog a{
+    text-decoration: none;
+    color: black;
+}
+
+.dialog a.active{
+    color: goldenrod;
+}
+
+.dialog img {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.dialog text {
+    padding-left: 5px;
+}
