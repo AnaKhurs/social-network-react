@@ -15,6 +15,13 @@ let state = {
                 {id: 6, photoDialogs: 'https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGh1bWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60', name: 'Maks'},
                 {id: 7, photoDialogs: 'https://images.unsplash.com/photo-1585856231313-7d7a30d64a50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80 s', name: 'Pasha'}
             ],
+
+        // Sidebar: {
+        //     sidebarData: [
+        //         {id: 2, photoDialogs: 'https://images.unsplash.com/photo-1485893086445-ed75865251e0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjZSUyMGdpcmx8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60', name: 'Lena'},
+        //         {id: 4, photoDialogs: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80', name: 'Sasha'},
+        //         {id: 7, photoDialogs: 'https://images.unsplash.com/photo-1585856231313-7d7a30d64a50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80 s', name: 'Pasha'}
+        //     ],
             messageData: [
                 {id: 1, message: 'Hi'},
                 {id: 2, message: 'How are you?'},
