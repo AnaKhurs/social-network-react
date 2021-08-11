@@ -1,0 +1,10 @@
+.message{
+    color: #594939;
+    padding: 10px 20px;
+    background-color: #fcf6ee;
+    border-radius: 20px 20px 20px 0;
+    max-width: 80%;
+    display: table;
+    margin: 0 ;
+    text-align: left;
+}
