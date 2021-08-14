@@ -9,7 +9,6 @@ import News from "./components/News/News";
 import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
 import {BrowserRouter, Route} from "react-router-dom";
-import Sidebar from "./components/Sidebar/Sidebar";
 
 const App = (props) => {
     return (
@@ -17,7 +16,6 @@ const App = (props) => {
             <div className='app-wrapper'>
                 <Header/>
                 <Navbar/>
-                {/*<Sidebar/>*/}
                 <div className='app-wrapper-content'>
                     <Route path='/dialogs' render={() => <Dialogs state={props.state.DialogsPage}/>}/>
                     <Route path='/profile' render={() => <Profile
@@ -26,7 +24,6 @@ const App = (props) => {
                     <Route path='/music' component={Music}/>
                     <Route path='/news' component={News}/>
                     <Route path='/settings' component={Settings}/>
-                    {/*<Route path='/sidebar' component={Sidebar}/>*/}
                 </div>
             </div>
         </BrowserRouter>
